@@ -1,0 +1,218 @@
+---
+---
+
+// ^ dont remove these, otherwise jekyll wont convert this .scss -> .css
+
+* {
+	box-sizing: border-box;
+}
+:after, :before {
+	box-sizing: border-box;
+}
+body {
+	padding: 0;
+	font-size: 12px;
+	margin: 0;
+	background-color: #0e0e0e;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	color: #999;
+}
+a {
+	color: #f09;
+	&:hover {
+		color: #09f;
+	}
+	&.top {
+		position: absolute;
+	}
+}
+
+h1 {
+	background-color: #1f1f1f;
+	color: #fff;
+	padding: 8px 7px;
+	font-size: 16px;
+	font-weight: normal;
+	margin-top: 0;
+	span {
+		color: #f09;
+	}
+}
+img {
+	border: 0;
+}
+
+li {
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+header {
+	background-color: #000;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+nav {
+	//background: url('/images/bg.gif');
+	text-align: center;
+	margin-bottom: 40px;
+	a {
+		display: inline-block;
+		background-color: #212121;
+		color: #fff;
+		width: 122px;
+		padding: 8px 0;
+		text-decoration: none;
+		border-radius: 0 0 10px 10px;
+		font-size: 14px;
+		&:hover {
+			background-color: #1b1b1b;
+			color: #f09;
+		}
+		&.active {
+			background-color: #131313;
+		}
+	}
+}
+.main {
+	background: url('/images/bg.gif');
+	min-height: 500px;
+	padding-bottom: 40px;
+	//height: auto !important;
+	//height: 500px;
+}
+.container {
+	width: 760px;
+	margin-left: auto;
+	margin-right: auto;
+}
+section {
+	background: #000;
+	margin-bottom: 40px;
+	article,
+	aside {
+		padding: 15px;
+	}
+}
+
+footer {
+	text-align: center;
+	padding: 50px 0;
+}
+
+.tiles {
+	text-align: center;
+	font-size: 0;
+}
+.tile {
+	display: inline-block;
+	padding: 5px;
+}
+.tile strong {
+	background-color: #0e0e0e;
+    color: #FFF;
+    padding: 8px 7px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: normal;
+    display: block;
+}
+.tile a {
+	display: block;
+    width: 200px;
+    height: 185px;
+    background: transparent url(/images/home4.jpg) top left no-repeat;
+}
+.tile a.b01 {}
+.tile a.b01:hover {
+	background-position: 0px -555px;
+}
+.tile a.b02 {
+	background-position: -200px 0px;
+}
+.tile a.b02:hover {
+	background-position: -200px -555px;
+}
+.tile a.b03 {
+	background-position: -400px 0px;
+}
+.tile a.b03:hover {
+	background-position: -400px -555px;
+}
+.tile a.b04 {
+	background-position: 0px -185px;
+}
+.tile a.b04:hover {
+	background-position: 0px -740px;
+}
+.tile a.b05 {
+	background-position: -200px -185px;
+}
+.tile a.b05:hover {
+	background-position: -200px -740px;
+}
+.tile a.b06 {
+	background-position: -400px -185px;
+}
+.tile a.b06:hover {
+	background-position: -400px -740px;
+}
+.tile a.b07 {
+	background-position: 0px -370px;
+}
+.tile a.b07:hover {
+	background-position: 0px -925px;
+}
+.tile a.b08 {
+	background-position: -200px -370px;
+}
+.tile a.b08:hover {
+	background-position: -200px -925px;
+}
+.tile a.b09 {
+	background-position: -400px -370px;
+}
+.tile a.b09:hover {
+	background-position: -400px -925px;
+}
+
+.contact-photo {
+	float: left;
+	margin-right: 10px;
+}
+
+.row {
+	//margin-right: -15px;
+    //margin-left: -15px;
+}
+.container:after,
+.container:before,
+.row:after,
+.row:before {
+	display: table;
+    content: " ";
+}
+.container:after,
+.row:after {
+	clear: both;
+}
+.col-md-4,
+.col-md-8 {
+	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+@media (min-width: 992px) {
+	.col-md-4,
+	.col-md-8 {
+		float: left;
+	}
+	.col-md-4 {
+		width: 33.33333333%;
+	}
+	.col-md-8 {
+		width: 66.66666667%;
+	}
+}

@@ -1,0 +1,16 @@
+# Jekyll configuration
+
+name: diannehayphotography-com-au
+description: Dianne Hay's photography website
+author:
+  name: Mike Causer
+  email: mcauser@gmail.com
+
+url: http://dianne-hay-photography.github.io/diannehayphotography-com-au
+
+exclude: [".ruby-version", "Gemfile", "Gemfile.lock", "README.md"]
+
+sass:
+  style: compressed
+
+encoding: utf-8
