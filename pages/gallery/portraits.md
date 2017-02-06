@@ -3,7 +3,7 @@ layout: default
 title: Portraits
 permalink: /gallery/portraits
 section: gallery
-rss: portraits
+rss: 07-portraits
 ---
 
 <section>
@@ -14,7 +14,7 @@ rss: portraits
 			<param name="flashvars" value="feed=http://diannehayphotography.com.au/rss/{{ page.rss }}.rss">
 			<param name="allowFullScreen" value="true">
 			<param name="allowScriptAccess" value="never">
-			<embed type="application/x-shockwave-flash" src="/vendor/cooliris/cooliris.swf" width="735" height="500" flashvars="feed=http://diannehayphotography.com.au/rss/{{ page.rss }}.rss" allowFullScreen="true" allowScriptAccess="never"></embed>
+			<embed type="application/x-shockwave-flash" src="/vendor/cooliris/cooliris.swf" width="735" height="500" flashvars="feed=http://diannehayphotography.com.au/rss/{{ page.rss }}.rss" allowFullScreen="true" allowScriptAccess="never"/>
 		</object>
 	</article>
 </section>

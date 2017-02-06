@@ -3,7 +3,7 @@ layout: default
 title: Babies & Children
 permalink: /gallery/babies-and-children
 section: gallery
-rss: babies-and-children
+rss: 08-babies-and-children
 ---
 
 <section>
@@ -14,7 +14,7 @@ rss: babies-and-children
 			<param name="flashvars" value="feed=http://diannehayphotography.com.au/rss/{{ page.rss }}.rss">
 			<param name="allowFullScreen" value="true">
 			<param name="allowScriptAccess" value="never">
-			<embed type="application/x-shockwave-flash" src="/vendor/cooliris/cooliris.swf" width="735" height="500" flashvars="feed=http://diannehayphotography.com.au/rss/{{ page.rss }}.rss" allowFullScreen="true" allowScriptAccess="never"></embed>
+			<embed type="application/x-shockwave-flash" src="/vendor/cooliris/cooliris.swf" width="735" height="500" flashvars="feed=http://diannehayphotography.com.au/rss/{{ page.rss }}.rss" allowFullScreen="true" allowScriptAccess="never"/>
 		</object>
 	</article>
 </section>
